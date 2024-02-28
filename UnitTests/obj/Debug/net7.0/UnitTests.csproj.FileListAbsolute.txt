@@ -105,3 +105,4 @@ D:\учеба\3курс\6term\SPP\lab1\UnitTests\bin\Debug\net7.0\Main.exe
 D:\учеба\3курс\6term\SPP\lab1\UnitTests\bin\Debug\net7.0\Main.dll
 D:\учеба\3курс\6term\SPP\lab1\UnitTests\bin\Debug\net7.0\Main.pdb
 D:\учеба\3курс\6term\SPP\lab1\UnitTests\obj\Debug\net7.0\UnitTests.csproj.Up2Date
+D:\учеба\3курс\6term\SPP\lab1\UnitTests\obj\Debug\net7.0\UnitTests.sourcelink.json

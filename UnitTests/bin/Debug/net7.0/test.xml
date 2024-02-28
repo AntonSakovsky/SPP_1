@@ -1,27 +1,28 @@
+<?xml version="1.0" encoding="utf-16"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-   <thread id="32" time="1ms">
-      <method name="MyMethod" class="SomeClass" time="0.9669">
-         <method name="InnerMethod" class="AnotherClass" time="0.015" />
-      </method>
-   </thread>
-   <thread id="33" time="1ms">
-      <method name="MyMethod" class="SomeClass" time="0.6406">
-         <method name="InnerMethod" class="AnotherClass" time="0.5644" />
-      </method>
-   </thread>
-   <thread id="36" time="1ms">
-      <method name="MyMethod" class="SomeClass" time="0.5353">
-         <method name="InnerMethod" class="AnotherClass" time="0.5153" />
-      </method>
-   </thread>
-   <thread id="35" time="1ms">
-      <method name="MyMethod" class="SomeClass" time="0.3843">
-         <method name="InnerMethod" class="AnotherClass" time="0.2611" />
-      </method>
-   </thread>
-   <thread id="34" time="0ms">
-      <method name="MyMethod" class="SomeClass" time="0.3136">
-         <method name="InnerMethod" class="AnotherClass" time="0.0043" />
-      </method>
-   </thread>
+  <thread id="32" time="2ms">
+    <method name="SomeMethod" class="SomeClass" time="1.4369">
+      <method name="InnerMethod" class="AnotherClass" time="0.4746" />
+    </method>
+  </thread>
+  <thread id="33" time="1ms">
+    <method name="SomeMethod" class="SomeClass" time="0.8098">
+      <method name="InnerMethod" class="AnotherClass" time="0.5273" />
+    </method>
+  </thread>
+  <thread id="35" time="1ms">
+    <method name="SomeMethod" class="SomeClass" time="0.7642">
+      <method name="InnerMethod" class="AnotherClass" time="0.506" />
+    </method>
+  </thread>
+  <thread id="34" time="1ms">
+    <method name="SomeMethod" class="SomeClass" time="0.549">
+      <method name="InnerMethod" class="AnotherClass" time="0.3905" />
+    </method>
+  </thread>
+  <thread id="36" time="1ms">
+    <method name="SomeMethod" class="SomeClass" time="0.4795">
+      <method name="InnerMethod" class="AnotherClass" time="0.3087" />
+    </method>
+  </thread>
 </root>
