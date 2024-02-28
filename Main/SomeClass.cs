@@ -13,7 +13,7 @@ namespace Demonstration
             _anotherClass = new AnotherClass(_tracer);
         }
 
-        public void MyMethod(int delay)
+        public void SomeMethod(int delay)
         {
             _tracer.StartTrace();
 

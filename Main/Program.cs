@@ -15,7 +15,7 @@ namespace Demonstration
 
             for (int i = 0; i < threads.Length; i++)
             {
-                threads[i] = new Thread(() => someClass.MyMethod(0));
+                threads[i] = new Thread(() => someClass.SomeMethod(0));
                 threads[i].Start();
             }
 

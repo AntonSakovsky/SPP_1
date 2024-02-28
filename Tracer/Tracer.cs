@@ -6,10 +6,10 @@ namespace Tracer
     public class Tracer : ITracer
     {
         private List<ThreadInfo> Threads { get; set; }
-        private IResultOutput ResultOutput;
+        private IOutput ResultOutput;
         private readonly object _lockObj = new();
 
-        public Tracer(IResultOutput resultOutput)
+        public Tracer(IOutput resultOutput)
         {
             Threads = new List<ThreadInfo>();
             ResultOutput = resultOutput;
@@ -31,11 +31,10 @@ namespace Tracer
                 StackTrace stackTrace = new StackTrace();
                 StackFrame? frame = stackTrace.GetFrame(1);
 
-                string? MethodName = frame?.GetMethod()?.Name;//
-                string? ClassName = frame?.GetMethod()?.DeclaringType?.Name;//className
+                string? methodName = frame?.GetMethod()?.Name;
+                string? className = frame?.GetMethod()?.DeclaringType?.Name;
 
-                MethodInfo methodInfo = new MethodInfo(MethodName, ClassName);
-
+                MethodInfo methodInfo = new MethodInfo(methodName, className);
 
                 if (threadInfo?.Stack.Count == 0)
                 {
@@ -73,7 +72,7 @@ namespace Tracer
 
             foreach (var threadInfo in Threads)
             {
-                var time = threadInfo.Methods.Sum(MethodInfo => CalcTotalTime(MethodInfo));
+                var time = threadInfo.Methods.Sum(CalcTotalTime);
                 ResultThreads.Add(new ThreadInfo(threadInfo.Id, $"{Math.Round(time)}ms", threadInfo.Methods));
             }
             return new TraceResult(ResultThreads, ResultOutput);

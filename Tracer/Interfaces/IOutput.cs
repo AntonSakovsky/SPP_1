@@ -2,7 +2,7 @@
 
 namespace Tracer.Interfaces
 {
-    public interface IResultOutput
+    public interface IOutput
     {
         void ConsoleOutput(string result);
         void FileOutput(string result, string path);

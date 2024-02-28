@@ -8,11 +8,11 @@ namespace Tracer
     [XmlRoot("root")]
     public class TraceResult : ISerializer
     {
-        private IResultOutput ResultOutput { get; }
+        private IOutput ResultOutput { get; }
 
         [XmlElement("thread")]
         public List<ThreadInfo> Threads { get; }
-        public TraceResult(List<ThreadInfo> threadsInfo, IResultOutput resultOutput)
+        public TraceResult(List<ThreadInfo> threadsInfo, IOutput resultOutput)
         {
             Threads = threadsInfo;
             ResultOutput = resultOutput;

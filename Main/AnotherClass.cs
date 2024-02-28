@@ -15,7 +15,7 @@ namespace Demonstration
         {
             _tracer.StartTrace();
 
-            Thread.Sleep(delay); //
+            Thread.Sleep(delay); 
 
             _tracer.StopTrace();
         }

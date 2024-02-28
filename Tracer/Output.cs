@@ -2,7 +2,7 @@
 
 namespace Tracer
 {
-    public class Output : IResultOutput
+    public class Output : IOutput
     {
         public void ConsoleOutput(string result)
         {
