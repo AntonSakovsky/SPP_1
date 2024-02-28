@@ -1,0 +1,99 @@
+{
+  "Threads": [
+    {
+      "id": 11,
+      "time": "3045ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 2030.1985,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 1014.962,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "time": "3045ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 2029.6008,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 1015.2709,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "time": "3045ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 2029.4939,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 1015.0878,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "time": "3045ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 2029.4872,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 1015.5811,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "time": "3045ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 2029.4063,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 1015.406,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
