@@ -1,0 +1,27 @@
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <thread id="32" time="1ms">
+      <method name="MyMethod" class="SomeClass" time="0.9669">
+         <method name="InnerMethod" class="AnotherClass" time="0.015" />
+      </method>
+   </thread>
+   <thread id="33" time="1ms">
+      <method name="MyMethod" class="SomeClass" time="0.6406">
+         <method name="InnerMethod" class="AnotherClass" time="0.5644" />
+      </method>
+   </thread>
+   <thread id="36" time="1ms">
+      <method name="MyMethod" class="SomeClass" time="0.5353">
+         <method name="InnerMethod" class="AnotherClass" time="0.5153" />
+      </method>
+   </thread>
+   <thread id="35" time="1ms">
+      <method name="MyMethod" class="SomeClass" time="0.3843">
+         <method name="InnerMethod" class="AnotherClass" time="0.2611" />
+      </method>
+   </thread>
+   <thread id="34" time="0ms">
+      <method name="MyMethod" class="SomeClass" time="0.3136">
+         <method name="InnerMethod" class="AnotherClass" time="0.0043" />
+      </method>
+   </thread>
+</root>

@@ -1,0 +1,99 @@
+{
+  "Threads": [
+    {
+      "id": 32,
+      "time": "2ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 1.6506,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.6948,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "time": "2ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 1.2843,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.9101,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "time": "2ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 1.0992,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.9234,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "time": "2ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 0.9724,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.7795,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "time": "2ms",
+      "methods": [
+        {
+          "name": "MyMethod",
+          "class": "SomeClass",
+          "time": 0.9157,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.721,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
