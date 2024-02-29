@@ -8,14 +8,12 @@ namespace Tracer
     [XmlRoot("root")]
     public class TraceResult : ISerializer
     {
-        private IOutput ResultOutput { get; }
 
         [XmlElement("thread")]
         public List<ThreadInfo> Threads { get; }
-        public TraceResult(List<ThreadInfo> threadsInfo, IOutput resultOutput)
+        public TraceResult(List<ThreadInfo> threadsInfo)
         {
             Threads = threadsInfo;
-            ResultOutput = resultOutput;
         }
 
         public TraceResult() { }
@@ -41,16 +39,6 @@ namespace Tracer
                 xmlSerializer.Serialize(writer, this);
                 return sw.ToString();
             }
-        }
-
-        public void OutputToConsole()
-        {
-            ResultOutput.ConsoleOutput(toJSON()); 
-        }
-
-        public void OutputToFile(string path)
-        {
-            ResultOutput.FileOutput(toJSON(), path); 
         }
 
     }

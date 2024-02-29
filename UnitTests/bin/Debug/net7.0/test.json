@@ -1,18 +1,18 @@
 {
   "Threads": [
     {
-      "id": 37,
+      "id": 31,
       "time": "1ms",
       "methods": [
         {
           "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.3441,
+          "time": 0.9794,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.1778,
+              "time": 0.2706,
               "methods": []
             }
           ]
@@ -20,18 +20,18 @@
       ]
     },
     {
-      "id": 38,
-      "time": "0ms",
+      "id": 32,
+      "time": "1ms",
       "methods": [
         {
           "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.3085,
+          "time": 0.5905,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.0729,
+              "time": 0.5211,
               "methods": []
             }
           ]
@@ -39,18 +39,18 @@
       ]
     },
     {
-      "id": 39,
-      "time": "0ms",
+      "id": 33,
+      "time": "1ms",
       "methods": [
         {
           "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.1655,
+          "time": 0.5525,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.0124,
+              "time": 0.4454,
               "methods": []
             }
           ]
@@ -58,18 +58,18 @@
       ]
     },
     {
-      "id": 40,
-      "time": "0ms",
+      "id": 35,
+      "time": "1ms",
       "methods": [
         {
           "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.041,
+          "time": 0.5235,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.0052,
+              "time": 0.4166,
               "methods": []
             }
           ]
@@ -77,18 +77,18 @@
       ]
     },
     {
-      "id": 41,
+      "id": 34,
       "time": "0ms",
       "methods": [
         {
           "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.0251,
+          "time": 0.3571,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.0022,
+              "time": 0.008,
               "methods": []
             }
           ]

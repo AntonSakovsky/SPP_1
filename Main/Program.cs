@@ -7,7 +7,7 @@ namespace Demonstration
         static void Main(string[] args)
         {
             Output resultOutput = new Output();
-            Tracer.Tracer tracer = new Tracer.Tracer(resultOutput);
+            Tracer.Tracer tracer = new Tracer.Tracer();
 
             SomeClass someClass = new SomeClass(tracer);
 

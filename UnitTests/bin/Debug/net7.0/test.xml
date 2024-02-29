@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-16"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <thread id="32" time="2ms">
-    <method name="SomeMethod" class="SomeClass" time="1.4369">
-      <method name="InnerMethod" class="AnotherClass" time="0.4746" />
+  <thread id="37" time="0ms">
+    <method name="SomeMethod" class="SomeClass" time="0.0246">
+      <method name="InnerMethod" class="AnotherClass" time="0.0024" />
     </method>
   </thread>
-  <thread id="33" time="1ms">
-    <method name="SomeMethod" class="SomeClass" time="0.8098">
-      <method name="InnerMethod" class="AnotherClass" time="0.5273" />
+  <thread id="38" time="0ms">
+    <method name="SomeMethod" class="SomeClass" time="0.0143">
+      <method name="InnerMethod" class="AnotherClass" time="0.0011" />
     </method>
   </thread>
-  <thread id="35" time="1ms">
-    <method name="SomeMethod" class="SomeClass" time="0.7642">
-      <method name="InnerMethod" class="AnotherClass" time="0.506" />
+  <thread id="39" time="0ms">
+    <method name="SomeMethod" class="SomeClass" time="0.0192">
+      <method name="InnerMethod" class="AnotherClass" time="0.002" />
     </method>
   </thread>
-  <thread id="34" time="1ms">
-    <method name="SomeMethod" class="SomeClass" time="0.549">
-      <method name="InnerMethod" class="AnotherClass" time="0.3905" />
+  <thread id="40" time="0ms">
+    <method name="SomeMethod" class="SomeClass" time="0.0332">
+      <method name="InnerMethod" class="AnotherClass" time="0.0043" />
     </method>
   </thread>
-  <thread id="36" time="1ms">
-    <method name="SomeMethod" class="SomeClass" time="0.4795">
-      <method name="InnerMethod" class="AnotherClass" time="0.3087" />
+  <thread id="41" time="0ms">
+    <method name="SomeMethod" class="SomeClass" time="0.0259">
+      <method name="InnerMethod" class="AnotherClass" time="0.0023" />
     </method>
   </thread>
 </root>

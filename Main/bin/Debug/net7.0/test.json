@@ -5,52 +5,14 @@
       "time": "2ms",
       "methods": [
         {
-          "name": "MyMethod",
+          "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 1.4707,
+          "time": 1.2104,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.5815,
-              "methods": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "time": "2ms",
-      "methods": [
-        {
-          "name": "MyMethod",
-          "class": "SomeClass",
-          "time": 0.9819,
-          "methods": [
-            {
-              "name": "InnerMethod",
-              "class": "AnotherClass",
-              "time": 0.6253,
-              "methods": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "time": "1ms",
-      "methods": [
-        {
-          "name": "MyMethod",
-          "class": "SomeClass",
-          "time": 0.6736,
-          "methods": [
-            {
-              "name": "InnerMethod",
-              "class": "AnotherClass",
-              "time": 0.5984,
+              "time": 0.3506,
               "methods": []
             }
           ]
@@ -62,14 +24,14 @@
       "time": "1ms",
       "methods": [
         {
-          "name": "MyMethod",
+          "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.5369,
+          "time": 0.6057,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.5139,
+              "time": 0.3942,
               "methods": []
             }
           ]
@@ -81,14 +43,52 @@
       "time": "1ms",
       "methods": [
         {
-          "name": "MyMethod",
+          "name": "SomeMethod",
           "class": "SomeClass",
-          "time": 0.4864,
+          "time": 0.4285,
           "methods": [
             {
               "name": "InnerMethod",
               "class": "AnotherClass",
-              "time": 0.4722,
+              "time": 0.3965,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "time": "1ms",
+      "methods": [
+        {
+          "name": "SomeMethod",
+          "class": "SomeClass",
+          "time": 0.3825,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.3626,
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "time": "1ms",
+      "methods": [
+        {
+          "name": "SomeMethod",
+          "class": "SomeClass",
+          "time": 0.3255,
+          "methods": [
+            {
+              "name": "InnerMethod",
+              "class": "AnotherClass",
+              "time": 0.3172,
               "methods": []
             }
           ]

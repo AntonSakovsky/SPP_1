@@ -6,13 +6,11 @@ namespace Tracer
     public class Tracer : ITracer
     {
         private List<ThreadInfo> Threads { get; set; }
-        private IOutput ResultOutput;
         private readonly object _lockObj = new();
 
-        public Tracer(IOutput resultOutput)
+        public Tracer()
         {
             Threads = new List<ThreadInfo>();
-            ResultOutput = resultOutput;
         }
         public void StartTrace()
         {
@@ -75,7 +73,7 @@ namespace Tracer
                 var time = threadInfo.Methods.Sum(CalcTotalTime);
                 ResultThreads.Add(new ThreadInfo(threadInfo.Id, $"{Math.Round(time)}ms", threadInfo.Methods));
             }
-            return new TraceResult(ResultThreads, ResultOutput);
+            return new TraceResult(ResultThreads);
 
 
             double CalcTotalTime(MethodInfo method)
